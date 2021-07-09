@@ -1,0 +1,433 @@
+:root {
+  --text-color-main:
+  --text-color: 
+  --text-color-accent: 
+  --text-color-white: 
+
+  --background-color-main: 
+  --background-color-dark: 
+  --background-color-gray: 
+  --background-color-accent:
+
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-duration: 250ms;
+}
+
+
+
+
+
+body {
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.menu-link,
+.header-contacts-link,
+.hero-link,
+.footer-link,
+.footer-contacts-link {
+  text-decoration: none;
+}
+
+.menu-list,
+.header-contacts-list,
+.hero-links-list,
+.about-us-list,
+.features-list,
+.masters-list,
+.social-list,
+.footer-contacts-list,
+.footer-links-list,
+.portfolio-list,
+.price-list {
+  list-style: none;
+}
+
+/*======BACKDROP=====*/
+
+
+/*======HEADER======*/
+
+.logo {
+  width: 70px;
+  height: 50px;
+}
+
+.menu-link {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.1em;
+color: black;
+}
+
+.header-contacts-link {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.1em;
+color: black;
+}
+  
+
+/*======INDEX-PAGE======*/
+
+/*======HERO======*/
+
+.hero-link {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.2em;
+color: #303030;
+}
+
+.hero-slogan {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 85px;
+letter-spacing: 0.05em;
+color: black;
+}
+
+.hero-text{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+
+.forma-btn {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: black;
+}
+
+/*======ABOUT US======*/
+
+.about-us-slogan {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #303030;
+}
+
+.about-us-title {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.about-us-text-top {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+.about-us-text {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+/*======FEATURES======*/
+.features-table-text {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+color: #303030;
+}
+
+.features-slogan {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #303030;
+}
+
+.features-title {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.features-text {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+/*======MASTERS======*/
+
+.masters-slogan {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #303030;
+}
+
+.masters-title {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.masters-name {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.02em;
+color: #303030;
+
+}
+.masters-speciality {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+color: #FF6C00;
+}
+
+
+
+
+/*======FOOTER======*/
+
+
+.footer-title {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+color: black;
+}
+
+.address {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+
+.footer-contacts-tel {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+text-decoration-line: none;
+color: #9DA4BD;
+}
+
+.footer-contacts-mail {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+text-decoration-line: underline;
+color: #9DA4BD;
+}
+
+.footer-time-title {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: black;
+}
+
+
+.footer-time {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: black;
+}
+
+.footer-copyright {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.2em;
+color: #9DA4BD;
+}
+
+.footer-link {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.2em;
+color: #303030;
+}
+
+
+/*======PORTFOLIO-PAGE======*/
+
+.portfolio-slogan {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #303030;
+}
+
+
+.portfolio-title {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+/*======PRICES-PAGE======*/
+
+.prices-slogan {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-title {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+color: black;
+}
+
+.price-list {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
